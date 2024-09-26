@@ -1,11 +1,11 @@
 #include <Servo.h>
 
 const int numSensors = 3;
-const int trigPins[numSensors] = {3, 5, 7}; // Trig pins of ultrasonic sensors connected to Arduino pins 4, 7, and 8
-const int echoPins[numSensors] = {4, 6, 8}; // Echo pins of ultrasonic sensors connected to Arduino pins 5, 6, and 9
+const int trigPins[numSensors] = {3, 5, 7}; // Trig pins of ultrasonic sensors connected to Arduino pins 3, 5, and 7
+const int echoPins[numSensors] = {4, 6, 8}; // Echo pins of ultrasonic sensors connected to Arduino pins 4, 6, and 8
 
 Servo servoMotor;
-const int servoPin = 9; // Servo motor signal pin connected to Arduino pin 10
+const int servoPin = 9; // Servo motor signal pin connected to Arduino pin 9
 
 void setup() {
   for (int i = 0; i < numSensors; i++) {
